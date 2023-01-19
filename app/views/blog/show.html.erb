@@ -1,4 +1,6 @@
 
-<h2><%=blog.title %></h2>
+<h2><%=@blog.title %></h2>
 
 <h3> <%=@blog.content%> </h3>  
+
+<h3> <%= link_to 'Return Home', blogs_path %> </h3>
